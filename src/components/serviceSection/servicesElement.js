@@ -55,11 +55,11 @@ export const ServiceCart = styled.div`
   border-radius: 10px;
   max-height: 340px;
   padding: 30px;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.35s ease-in-out;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 
   &:hover {
-    transform: scale(1.02);
+    transform: scale(1.05);
     transition: all 350ms ease-in-out;
     cursor: pointer;
   }

@@ -30,6 +30,19 @@ const Header = ({ toggle }) => {
   const toggleHome = () => {
     scroll.scrollToTop();
   };
+
+  /*const longest = (str) => {
+    let longword = "";
+    const long = str.split(" ");
+    for (let word of long) {
+      if (word.length > longword.length) {
+        longword = word;
+      }
+    }
+    return longword;
+  };
+
+  console.log(longest("my namesdass is safras"));*/
   return (
     <Nav scrollnav={scrollnav}>
       <NavLeft>

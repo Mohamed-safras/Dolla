@@ -45,7 +45,7 @@ const Hero = () => {
             onMouseEnter={onHover}
             onMouseLeave={onHover}
           >
-            Get Started{" "}
+            Get Started
             {hover ? (
               <ArrowForwardIcon fontbig="true" />
             ) : (
